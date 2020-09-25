@@ -1,0 +1,228 @@
+body
+{
+  font-family: Helvetica, sans-serif;
+  background-color: #0297BF;
+}
+
+.titlebox
+{
+  padding: 15px;
+  padding: 15px;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  height: 144px;
+
+  width: 96.5%;
+  float: left;
+}
+
+.titleboximage
+{
+  width: 20%;
+  float: left;
+}
+
+.titleboxtext
+{
+  width: 70%;
+  float: left;
+}
+
+.smallcover
+{
+  border: 1px solid #000000;
+}
+
+.booktitle
+{
+  color: #3366AA;
+  font-size: 30px;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  text-align: center;
+}
+
+.bookauthors
+{
+  color: #333333;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  text-align: center;
+}
+
+.mainbox
+{
+  width: 96.5%;
+  float: left;
+
+  border: 1px solid #000000;
+  background-color: #FFFFFF;
+  margin: 15px 0px 5px 0px;
+  padding: 15px;
+}
+
+.mainbox2
+{
+  /* intentionally empty */
+}
+
+.menubox
+{
+  width: 15%;
+  float: right;
+
+  padding: 15px;
+  margin: 0px 0px 15px 15px;
+  background-color: #FFFFEE;
+  border: 1px solid #000000;
+}
+
+ul.square
+{
+  list-style-type: square;
+}
+
+.left_author
+{
+  width: 37%;
+  float: left;
+  margin: 10px;
+}
+
+.right_author
+{
+  width: 37%;
+  float: left;
+  margin: 10px;
+}
+
+.authorcontent
+{
+  font-size: 16px;
+  text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: #3366FF;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+h4#here
+{
+  margin-top: 0;
+}
+
+h1
+{
+  font-size:   2em;
+  font-weight: 900;
+  line-height: 32px;
+}
+
+h2
+{
+  font-size:   1.5em;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+h3
+{
+  font-size:   1.35em;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+h4
+{
+  font-size:   1.2em;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+h4.menu { margin-top: 1.2em }
+
+h5
+{
+  font-size:   1.1em;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+h6
+{
+  font-size:   1em;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.largecover
+{
+  float: right;
+
+  border: 1px solid #000000;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.quote
+{
+  margin-left: 20px;
+  font-size: 80%;
+}
+
+.quote-attribution
+{
+  margin-left: 50px;
+}
+
+/* for the book pages */
+
+.blockquote
+{
+  background-color: #DDD;
+  padding: 1px 10px 1px 10px;
+  border: 1px solid black;
+}
+
+.example
+{
+  margin-top: 10px;
+}
+
+.example-code
+{
+  background-color: #DDD;
+  padding: 2px 0px 2px 0px;
+  border: 1px solid black;
+}
+
+.book-list-item-heading
+{
+  margin-top:  15px;
+  font-weight: 900;
+  color:       #0033CC;
+}
+
+.caption
+{
+  font-style: italic;
+  font-size:  .9em;
+}
+
+.table-head
+{
+  background-color: #EEE;
+}
+
+p.note
+{
+  padding: 0.2em;
+  background-color: #FFFFEE;
+  font-size: small;
+}
+

@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>
+The Mason Book
+</title>
+<link rel="stylesheet" type="text/css" href="/masonbook.css">
+</head>
+
+<body>
+
+<div class="bodybox">
+
+ <div class="titlebox">
+
+  <div class="titleboximage">
+   <a href="/"><img src="/i/cover_small.jpg" width="110" height="144" class="smallcover" alt="Small cover"></a>
+  </div>
+
+  <div class="titleboxtext">
+
+   <span class="booktitle">Embedding Perl in HTML with Mason</span><br>
+   <span class="bookauthors">Dave Rolsky<br>Ken Williams</span>
+
+  </div>
+
+ </div>
+
+ <div class="mainbox">
+  <div class="mainbox2">
+
+   <div class="menubox">
+    <h4 id="here">Here</h4>
+
+
+    <a href="/index.html">Home</a><br>
+    <a href="/news/">News</a><br>
+    <b>Read it online</b><br>
+    <a href="/source/">Example Code</a><br>
+    <a href="/authors.html">Authors</a><br>
+    <a href="/errata.html">Errata</a><br>
+    <a href="/quotes.html">Praise</a><br>
+    <a href="/contact.html">Contact us</a><br>
+    <a href="/buy.html">Buy the book!</a>
+
+
+    <h4 class="menu">There</h4>
+    <a href="http://www.masonhq.com/">Mason HQ</a><br>
+    <a href="http://www.oreilly.com/">O'Reilly</a><br>
+    <a href="http://perl.apache.org/">mod_perl</a>
+   </div>
+
+<p class="book-menu">
+<a href="index.html">Table of Contents</a>
+|
+<b>Foreword</b>
+|
+<a href="preface.html">Preface</a>
+<br>
+Chapters: 
+<a href="chapter-1.html">1</a>
+<a href="chapter-2.html">2</a>
+<a href="chapter-3.html">3</a>
+<a href="chapter-4.html">4</a>
+<a href="chapter-5.html">5</a>
+<a href="chapter-6.html">6</a>
+<a href="chapter-7.html">7</a>
+<a href="chapter-8.html">8</a>
+<a href="chapter-9.html">9</a>
+<a href="chapter-10.html">10</a>
+<a href="chapter-11.html">11</a>
+<a href="chapter-12.html">12</a>
+<br>
+Appendices:
+<a href="appendix-a.html">A</a>
+<a href="appendix-b.html">B</a>
+<a href="appendix-c.html">C</a>
+<a href="appendix-d.html">D</a>
+<br>
+<a href="glossary.html">Glossary</a>
+|
+<a href="colophon.html">Colophon</a>
+|
+<a href="copyright.html">Copyright</a>
+</p>
+
+
+
+
+<hr width="80%" align="left">
+
+<a name="TOC-ANCHOR-0"></a>
+<h1>Foreword</h1><p class="content">
+<a name="FOREWORD"></a>
+
+</p>
+<p class="content">
+When Dave asked last year if I wanted to cowrite a book about Mason, I mused
+over the idea for a few hours but ultimately declined. I&#39;ve already written
+a good deal about Mason in documentation and articles and wouldn&#39;t want the
+book to become a rehash of my particular point of view. On a more personal
+level, the thought of creating any text longer than a few pages fills me with
+trepidation. Given the choice of eight hours of backbreaking Perl coding or an
+hour of writing, I&#39;d take the code any day.
+</p>
+<p class="content">
+This book was authored, instead, by two Mason developers who have a fresh
+perspective and who, apparently, like writing as well as coding. Dave and Ken
+have been involved with Mason for years; they&#39;ve contributed to the project
+immeasurably, first in discussions and later to the Mason core itself. I cannot
+imagine two people better suited for this book.
+</p>
+<p class="content">
+When authors have unfettered access to the CVS repository, as Dave and Ken do,
+the writing process ends up shaping the product itself (e.g., &quot;I just
+wrote about this feature but it turns out it doesn&#39;t exist--I&#39;m going
+to implement it&quot; or &quot;I just wrote about this feature and it&#39;s
+horrible, can we kill it?&quot;). As a result, Mason has grown over the past
+year in ways I never would have predicted.
+</p>
+<p class="content">
+Read <a href="chapter-12.html">Chapter 12</a>, for example, to see the new parsing/compiling infrastructure so insanely flexible that one can compile Mason into Embperl or replace Mason&#39;s syntax with an XML variant. (Consider the original parser, a single 371-line subroutine, and you get an idea of how far we&#39;ve come.)
+</p>
+<p class="content">
+Or <a href="chapter-5.html">Chapter 5</a> to see how &quot;Calling Components with Content Blocks&quot; turns content filtering from a limited hack into a first-class language feature and opens the door to the creation of custom language tags.
+</p>
+<p class="content">
+Or <a href="chapter-9.html">Chapter 9</a> to see how support for CGI (and its high-powered cousins FastCGI and SpeedyCGI) has gone from a few paragraphs in the FAQ to a full-fledged handler, inside a new modular architecture just begging for additional platforms.
+</p>
+<p class="content">
+Such changes expand Mason&#39;s reach to an ever larger set of problems. At the
+same time, the reference sections and copious recipes in this book help to
+fulfill Mason&#39;s original mission: to provide a fun, simple, and powerful
+environment for <code>mod_perl</code> development. Should we stray too far from this path, we will certainly hear of
+it from the users.
+</p>
+<p class="content">
+Reading this book has taught me a surprising number of techniques about a
+product I used to know everything about and has reignited my enthusiasm for
+building cool web applications. I hope it does the same for you.
+</p>
+<p class="content">
+-- <em>Jonathan Swartz swartz@pobox.com</em>
+</p>
+<hr>
+<p class="book-menu">
+<a href="index.html">Table of Contents</a>
+|
+<b>Foreword</b>
+|
+<a href="preface.html">Preface</a>
+<br>
+Chapters: 
+<a href="chapter-1.html">1</a>
+<a href="chapter-2.html">2</a>
+<a href="chapter-3.html">3</a>
+<a href="chapter-4.html">4</a>
+<a href="chapter-5.html">5</a>
+<a href="chapter-6.html">6</a>
+<a href="chapter-7.html">7</a>
+<a href="chapter-8.html">8</a>
+<a href="chapter-9.html">9</a>
+<a href="chapter-10.html">10</a>
+<a href="chapter-11.html">11</a>
+<a href="chapter-12.html">12</a>
+<br>
+Appendices:
+<a href="appendix-a.html">A</a>
+<a href="appendix-b.html">B</a>
+<a href="appendix-c.html">C</a>
+<a href="appendix-d.html">D</a>
+<br>
+<a href="glossary.html">Glossary</a>
+|
+<a href="colophon.html">Colophon</a>
+|
+<a href="copyright.html">Copyright</a>
+</p>
+
+<p>
+These HTML pages were created by running <a
+href="book_as_html">this script</a> against the <a
+href="mason-book.tar.gz">pseudo-POD source</a>.
+</p>
+
+
+
+
+  </div>
+
+ </div>
+
+</div>
+
+</body>
+</html>
